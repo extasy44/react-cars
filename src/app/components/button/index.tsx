@@ -31,6 +31,7 @@ const BaseButton = styled.button`
 `;
 
 const OutlinedButton = styled(BaseButton)`
+  min-width: 220px;
   ${tw`
     bg-red-500
     hover:bg-transparent
@@ -40,6 +41,7 @@ const OutlinedButton = styled(BaseButton)`
 `;
 
 const FilledButton = styled(BaseButton)`
+  min-width: 220px;
   ${tw`
     border-red-500
     text-red-500
