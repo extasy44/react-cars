@@ -5,6 +5,7 @@ import { BookCard } from '../../components/bookCard';
 import { Marginer } from '../../components/marginer';
 import { Navbar } from '../../components/navbar';
 import { TopSection } from './topSection';
+import { BookingSteps } from './bookingSteps';
 
 const PageContainer = styled.div`
   ${tw`
@@ -25,6 +26,8 @@ export function HomePage() {
       <TopSection />
       <Marginer direction="vertical" margin="5em" />
       <BookCard />
+      <Marginer direction="vertical" margin="5em" />
+      <BookingSteps />
     </PageContainer>
   );
 }
