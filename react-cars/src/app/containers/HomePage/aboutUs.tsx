@@ -61,6 +61,7 @@ const Title = styled.h1`
     text-black
     text-2xl
     md:text-5xl
+    md:max-w-2xl
     font-extrabold
     md:font-black
     md:leading-normal
